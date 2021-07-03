@@ -1,12 +1,36 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	  // 首页
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationStyle":"custom"
 			}
-		}
-	],
+		},
+		// 歌单列表
+	  {
+      "path" : "pages/musicList/musicList",
+      "style" :           
+      {
+        "navigationStyle":"custom"
+      }     
+    },
+		// 音乐详情页
+    {
+      "path" : "pages/musicDetail/musicDetail",
+      "style" :                                                                                    
+      {
+         "navigationStyle":"custom"
+      }  
+    },
+		 // 搜索页面
+    {
+      "path" : "pages/search/search",
+      "style": {
+      	"navigationStyle":"custom"
+      }  
+    }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
